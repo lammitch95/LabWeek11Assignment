@@ -22,6 +22,7 @@ public class DriverClass {
         bst.insert(4);
         bst.insert(13);
         System.out.println("\n-------------------");
+        System.out.println("Depth level of 8 is: " + bst.getDepth(8));//depth level 0
         System.out.println("In Order Traversal");
         bst.inOrderTraversal();
         
